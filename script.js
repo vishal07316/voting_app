@@ -40,5 +40,6 @@ function updateResults() {
     document.getElementById('totalVotes').innerText = `Total Votes: ${team1Votes + team2Votes}`;
 }
 
-// Load the votes when the page loads
+// Load the votes when the page loads 
+// done
 window.onload = loadVotes;
